@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Orchestrator.Decider": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "name":"schedule-workflow",
+    "tasks":[
+        {
+            "name": "get-schedule-task",
+            "taskReferenceName": "get-schedule-ref"
+        }
+    ],
+    "inputParameters":[
+
+    ],
+    "outputParameters":{
+        "result": "${get-schedule-ref.result}"
+    }
+}
